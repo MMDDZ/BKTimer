@@ -6,13 +6,13 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/MMDDZ/BKTimer"
   spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   spec.authors      = { "MMDDZ" => "694092596@qq.com" }
-  spec.source       = { :git => "http://github.com/MMDDZ/BKTimer.git", :tag => s.version.to_s }
+  spec.source       = { :git => "http://github.com/MMDDZ/BKTimer.git", :tag => spec.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  spec.ios.deployment_target = '8.0'
 
-  s.source_files = 'BKTimer/*.{h,m}'
-  s.public_header_files = 'BKTimer/*.h'
+  spec.source_files = 'BKTimer/*.{h,m}'
+  spec.public_header_files = 'BKTimer/*.h'
 
-  s.framework  = "UIKit"
+  spec.framework  = "UIKit"
 
 end
