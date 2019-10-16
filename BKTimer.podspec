@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BKTimer"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "定时器"
   s.homepage     = "https://github.com/MMDDZ/BKTimer"
   s.license      = { :type => "MIT", :file => "LICENSE" }
